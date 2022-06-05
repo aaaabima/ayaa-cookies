@@ -31,47 +31,63 @@ a {
   padding: 30px;
   
 }
+
 .search-bar input{
-  width: 500px;
-  font-size: 30px;
+  margin-top: 20px;
   margin-bottom: 20px;
-  border-top: 0 ;
-  border-left: 0;
-  border-right: 0;
-  background-color: #D5D8B5;
+  width: 400px;
+  padding: 8px;
+  font-size: 24px;
+  border-radius: 10px;
+  background-color: white;
   font-weight: 1;
-  color: #556052;
+  color: #000000;
 }
 .search-button{
   margin-top: 20px;
-  color:white;
-  background-color: black;
-  border: 1px solid white;
+  margin-left: 20px;
+  color:black;
+  background-color: white;
+  border-radius: 10px;
   width: 100px;
-  height: 30px;
   text-align: center;
   font-weight: bolder;
   font-size: 20px;
-  visibility: hidden;
+  padding: 8px;
 }
 
-.guitar-list{
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  /* background-color: #809A6F; */
-  color: white;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.cookies-list {
+  text-align: justify;
+  margin: 24px;
+  border: 2px solid white;
+  border-radius: 10px;
 }
 
-.guitar-list th{
-  background-color: #b3b78c;
-  height: 40px;
+tr:first-child th:first-child { border-top-left-radius: 20px; }
+tr:first-child th:last-child { border-top-right-radius: 20px; }
+
+.cookies-list th {
+  text-align: center;
+  padding: 12px 8px;
+  background: #1e2020;
+  color: #e4e2e2;
 }
-.guitar-list tr{
-  background-color: #AF6B58;
+
+#odd {
+  background: #dae7f1;
 }
-.body-2{
-  background-color: #ffd0c3;
-  height: 100%;
+
+#even {
+  background: #fcfcfc;
+}
+
+.cookies-list td {
+  text-align: center;
+  padding: 8px;
+  min-width: 90px;
+}
+
+.cookies-list td.deskripsi{
+  text-align: justify;
+  padding: 8px;
 }
